@@ -1,0 +1,333 @@
+[
+  {
+    "name": "level",
+    "title": "Qual é o seu nível de experiência?",
+    "type": "radio",
+    "options": {
+      "0": {
+        "title": "Sem experiência",
+        "answer": 0,
+        "key": "noExperience"
+      },
+      "1": {
+        "title": "Até 1 ano",
+        "answer": 0,
+        "key": "upToOneYear"
+      },
+      "2": {
+        "title": "Até 2 anos",
+        "answer": 1,
+        "key": "upToTwoYears"
+      },
+      "3": {
+        "title": "Até 5 anos",
+        "answer": 1,
+        "key": "upToFiveYears"
+      },
+      "4": {
+        "title": "Até 10 anos",
+        "answer": 2,
+        "key": "upToTenYears"
+      },
+      "5": {
+        "title": "Mais de 10 anos",
+        "answer": 2,
+        "key": "moreThanTenYears"
+      }
+    },
+    "answers": {
+      "0": {
+        "image": "/advisor-experience.png",
+        "title": "Ótimo!",
+        "description": "Oferecemos guias passo a passo sobre noções básicas de análise de futebol, entendimento de estratégias de jogo e gerenciamento de seu envolvimento. Nossas percepções impulsionadas por IA ajudarão você a começar com cautela e aprender à medida que avança.",
+        "type": "info"
+      },
+      "1": {
+        "image": "/advisor-experience.png",
+        "title": "Ótimo!",
+        "description": "Você está familiarizado com o essencial. Agora, vamos aprimorar seu conhecimento com técnicas avançadas, insights sobre a escolha dos jogos certos para se concentrar e otimizar seu entendimento usando previsões personalizadas de IA.",
+        "type": "info"
+      },
+      "2": {
+        "image": "/advisor-experience.png",
+        "title": "Ótimo!",
+        "description": "Como um fã experiente, você se beneficiará de análises profundas, tendências e padrões que nossa ferramenta analisa em tempo real. Aumente seu conhecimento de futebol com nossas estruturas de análise avançadas e insights de alto valor.",
+        "type": "info"
+      }
+    }
+  },
+  {
+    "name": "howMany",
+    "title": "Quantos jogos você analisa por dia?",
+    "type": "radio",
+    "options": {
+      "0": {
+        "title": "1-5",
+        "answer": 0,
+        "key": "1-5"
+      },
+      "1": {
+        "title": "5-10",
+        "answer": 0,
+        "key": "5-10"
+      },
+      "2": {
+        "title": "10-100",
+        "answer": 0,
+        "key": "10-100"
+      },
+      "3": {
+        "title": "Não analiso",
+        "answer": 0,
+        "key": "noProcessing"
+      }
+    },
+    "answers": {
+      "0": {
+        "image": "/advisor-like.png",
+        "title": "Ok!",
+        "description": "Recomendamos fortemente usar pelo menos 7 previsões de IA por dia. Usar menos de 5 projeções pode aumentar significativamente os riscos.",
+        "type": "info"
+      }
+    }
+  },
+  {
+    "name": "whatTypes",
+    "title": "Em que tipos de previsões você está interessado?",
+    "type": "checkbox",
+    "options": {
+      "0": {
+        "title": "Vencedor do jogo",
+        "answer": 0,
+        "key": "matchWinner"
+      },
+      "1": {
+        "title": "Dupla chance",
+        "answer": 0,
+        "key": "doubleChance"
+      },
+      "2": {
+        "title": "Ambas as equipes marcam",
+        "answer": 0,
+        "key": "bothTeamsScore"
+      },
+      "3": {
+        "title": "Mais/menos gols",
+        "answer": 0,
+        "key": "goalsOverUnder"
+      },
+      "4": {
+        "title": "Outro",
+        "answer": 0,
+        "key": "other"
+      }
+    },
+    "answers": {
+      "0": {
+        "image": "/advisor-chart.png",
+        "title": "Excelente!",
+        "description": "Aqui estão as estatísticas do último mês por tipo",
+        "type": "statistics",
+        "preload": {
+          "title": "Carregando estatísticas..."
+        }
+      }
+    }
+  },
+  {
+    "name": "budget",
+    "title": "Qual é o seu orçamento diário?",
+    "type": "radio",
+    "options": {
+      "0": {
+        "title": "Até $50",
+        "answer": 0,
+        "key": "upToFifty"
+      },
+      "1": {
+        "title": "Até $100",
+        "answer": 0,
+        "key": "upToHundred"
+      },
+      "2": {
+        "title": "Até $500",
+        "answer": 0,
+        "key": "upToFiveHundred"
+      },
+      "3": {
+        "title": "Até $1000",
+        "answer": 0,
+        "key": "upToOneThousand"
+      },
+      "4": {
+        "title": "Mais de $1000",
+        "answer": 0,
+        "key": "moreThanThousand"
+      }
+    },
+    "answers": {
+      "0": {
+        "image": "/advisor-wow.png",
+        "title": "Uau!",
+        "description": "Recomendamos fortemente não usar todo o orçamento usando previsões de IA.",
+        "type": "info"
+      }
+    }
+  },
+  {
+    "name": "monthlyReturn",
+    "title": "Qual é o seu retorno mensal?",
+    "type": "radio",
+    "options": {
+      "0": {
+        "title": "Retornos negativos",
+        "answer": 0,
+        "key": "negativeReturns"
+      },
+      "1": {
+        "title": "Até 10%",
+        "answer": 0,
+        "key": "upToTenPercent"
+      },
+      "2": {
+        "title": "Até 30%",
+        "answer": 0,
+        "key": "upToThirtyPercent"
+      },
+      "3": {
+        "title": "Até 50%",
+        "answer": 0,
+        "key": "upToFiftyPercent"
+      },
+      "4": {
+        "title": "Até 100%",
+        "answer": 0,
+        "key": "upToOneHundredPercent"
+      }
+    },
+    "answers": {
+      "0": {
+        "image": "/advisor-chart2.png",
+        "title": "Você pode mais!",
+        "description": "Usando sua própria estratégia e nossas previsões de futebol de IA, você pode fazer mais!",
+        "type": "info"
+      }
+    }
+  },
+  {
+    "name": "whatOdds",
+    "title": "Que odds você usa?",
+    "type": "checkbox",
+    "options": {
+      "0": {
+        "title": "1,00 - 1,10",
+        "answer": 0,
+        "key": "1.00-1.10"
+      },
+      "1": {
+        "title": "1,10 - 1,20",
+        "answer": 0,
+        "key": "1.10-1.20"
+      },
+      "2": {
+        "title": "1,20 - 1,30",
+        "answer": 0,
+        "key": "1.20-1.30"
+      },
+      "3": {
+        "title": "1,30 - 1,40",
+        "answer": 0,
+        "key": "1.30-1.40"
+      },
+      "4": {
+        "title": "1,40 - 1,50",
+        "answer": 0,
+        "key": "1.40-1.50"
+      },
+      "5": {
+        "title": "1,50 - 1,60",
+        "answer": 0,
+        "key": "1.50-1.60"
+      },
+      "6": {
+        "title": "1,60 - 1,70",
+        "answer": 0,
+        "key": "1.60-1.70"
+      },
+      "7": {
+        "title": "1,70 - 1,80",
+        "answer": 0,
+        "key": "1.70-1.80"
+      },
+      "8": {
+        "title": "1,80 - 1,90",
+        "answer": 0,
+        "key": "1.80-1.90"
+      },
+      "9": {
+        "title": "Mais de 1,90",
+        "answer": 0,
+        "key": "moreThan1.90"
+      }
+    },
+    "answers": {
+      "0": {
+        "image": "/advisor-checkmark.png",
+        "title": "E isso é bom!",
+        "description": "Recomendamos começar com odds na faixa de 1,2 a 1,7. Você pode filtrar por \"Somente com odds\" para encontrar essas recomendações. Odds abaixo de 1,2 têm a mesma probabilidade, mas retornos mais baixos. Odds acima de 1,7 podem ter um risco aumentado se você usar a previsão de IA mais perto do início do jogo. A IA avalia as probabilidades um dia antes do início do jogo, e nossas previsões não mudam antes, durante ou após o jogo (você pode avaliar a eficácia a partir de jogos anteriores). As circunstâncias podem mudar significativamente dentro de um dia e podem afetar os resultados do jogo.",
+        "type": "info"
+      }
+    }
+  },
+  {
+    "name": "specificLeaguesTeams",
+    "title": "Você quer usar previsões para ligas e times específicos, ou isso não importa?",
+    "type": "radio",
+    "options": {
+      "0": {
+        "title": "Apenas específicos",
+        "answer": 0,
+        "key": "onlySpecificOnes"
+      },
+      "1": {
+        "title": "Não importa",
+        "answer": 0,
+        "key": "itDoesntMatter"
+      }
+    },
+    "answers": {
+      "0": {
+        "image": "/advisor-binoculars.png",
+        "title": "Confira!",
+        "description": "Antes de usar previsões para uma liga ou time específico, certifique-se de que a IA se saia bem com eles. Isso pode ser facilmente verificado visitando a página da liga ou time e revisando os jogos concluídos.",
+        "type": "info"
+      }
+    }
+  },
+  {
+    "name": "strategy",
+    "title": "Você tem sua própria estratégia?",
+    "type": "radio",
+    "options": {
+      "0": {
+        "title": "Não, confio na sorte",
+        "answer": 0,
+        "key": "noLuck"
+      },
+      "1": {
+        "title": "Sim, sigo ela",
+        "answer": 0,
+        "key": "yesStickToIt"
+      }
+    },
+    "answers": {
+      "0": {
+        "image": "/advisor-board.png",
+        "title": "Estratégia é necessária!",
+        "description": "Recomendamos fortemente desenvolver sua própria estratégia. Nosso aplicativo fornece estatísticas adicionais abrangentes, como Taxa de Sucesso, H2H, Tabela, Escalações. Se você quiser começar hoje, concentre-se nas previsões de IA para o vencedor do jogo com odds na faixa de 1,2 a 1,7. Para aumentar suas chances, considere trabalhar com 7-10 dessas previsões. Esta é a maneira mais simples de começar.",
+        "postTitle": "Boa sorte!",
+        "type": "info"
+      }
+    }
+  }
+]

@@ -1,0 +1,333 @@
+[
+  {
+    "name": "level",
+    "title": "Was ist Ihr Erfahrungslevel?",
+    "type": "radio",
+    "options": {
+      "0": {
+        "title": "Keine Erfahrung",
+        "answer": 0,
+        "key": "noExperience"
+      },
+      "1": {
+        "title": "Bis zu 1 Jahr",
+        "answer": 0,
+        "key": "upToOneYear"
+      },
+      "2": {
+        "title": "Bis zu 2 Jahre",
+        "answer": 1,
+        "key": "upToTwoYears"
+      },
+      "3": {
+        "title": "Bis zu 5 Jahre",
+        "answer": 1,
+        "key": "upToFiveYears"
+      },
+      "4": {
+        "title": "Bis zu 10 Jahre",
+        "answer": 2,
+        "key": "upToTenYears"
+      },
+      "5": {
+        "title": "Mehr als 10 Jahre",
+        "answer": 2,
+        "key": "moreThanTenYears"
+      }
+    },
+    "answers": {
+      "0": {
+        "image": "/advisor-experience.png",
+        "title": "Super!",
+        "description": "Wir bieten schrittweise Anleitungen zu den Grundlagen der Fußballanalyse, zum Verständnis von Spielstrategien und zur Verwaltung Ihrer Engagement. Unsere KI-gesteuerten Einblicke helfen Ihnen, vorsichtig zu beginnen und während des Prozesses zu lernen.",
+        "type": "info"
+      },
+      "1": {
+        "image": "/advisor-experience.png",
+        "title": "Super!",
+        "description": "Sie sind mit den Grundlagen vertraut. Lassen Sie uns jetzt Ihr Wissen mit fortgeschrittenen Techniken verbessern, Einblicke in die Auswahl der richtigen Spiele zur Konzentration und Optimierung Ihres Verständnisses mithilfe personalisierter KI-Vorhersagen.",
+        "type": "info"
+      },
+      "2": {
+        "image": "/advisor-experience.png",
+        "title": "Super!",
+        "description": "Als erfahrener Fan profitieren Sie von tiefgehenden Analysen, Trends und Mustern, die unser Tool in Echtzeit analysiert. Verbessern Sie Ihr Fußballverständnis mit unseren fortgeschrittenen Analyserahmen und hochwertigen Erkenntnissen.",
+        "type": "info"
+      }
+    }
+  },
+  {
+    "name": "howMany",
+    "title": "Wie viele Spiele bearbeiten Sie pro Tag?",
+    "type": "radio",
+    "options": {
+      "0": {
+        "title": "1-5",
+        "answer": 0,
+        "key": "1-5"
+      },
+      "1": {
+        "title": "5-10",
+        "answer": 0,
+        "key": "5-10"
+      },
+      "2": {
+        "title": "10-100",
+        "answer": 0,
+        "key": "10-100"
+      },
+      "3": {
+        "title": "Ich bearbeite nicht",
+        "answer": 0,
+        "key": "noProcessing"
+      }
+    },
+    "answers": {
+      "0": {
+        "image": "/advisor-like.png",
+        "title": "Ok!",
+        "description": "Wir empfehlen dringend, mindestens 7 KI-Vorhersagen pro Tag zu verwenden. Die Verwendung von weniger als 5 Prognosen kann das Risiko erheblich erhöhen.",
+        "type": "info"
+      }
+    }
+  },
+  {
+    "name": "whatTypes",
+    "title": "An welchen Arten von Vorhersagen sind Sie interessiert?",
+    "type": "checkbox",
+    "options": {
+      "0": {
+        "title": "Spielgewinner",
+        "answer": 0,
+        "key": "matchWinner"
+      },
+      "1": {
+        "title": "Doppelte Chance",
+        "answer": 0,
+        "key": "doubleChance"
+      },
+      "2": {
+        "title": "Beide Teams erzielen",
+        "answer": 0,
+        "key": "bothTeamsScore"
+      },
+      "3": {
+        "title": "Tore Über/Unter",
+        "answer": 0,
+        "key": "goalsOverUnder"
+      },
+      "4": {
+        "title": "Andere",
+        "answer": 0,
+        "key": "other"
+      }
+    },
+    "answers": {
+      "0": {
+        "image": "/advisor-chart.png",
+        "title": "Ausgezeichnet!",
+        "description": "Hier sind die Statistiken des letzten Monats nach Typ",
+        "type": "statistics",
+        "preload": {
+          "title": "Statistik wird geladen..."
+        }
+      }
+    }
+  },
+  {
+    "name": "budget",
+    "title": "Was ist Ihr tägliches Budget?",
+    "type": "radio",
+    "options": {
+      "0": {
+        "title": "Bis zu $50",
+        "answer": 0,
+        "key": "upToFifty"
+      },
+      "1": {
+        "title": "Bis zu $100",
+        "answer": 0,
+        "key": "upToHundred"
+      },
+      "2": {
+        "title": "Bis zu $500",
+        "answer": 0,
+        "key": "upToFiveHundred"
+      },
+      "3": {
+        "title": "Bis zu $1000",
+        "answer": 0,
+        "key": "upToOneThousand"
+      },
+      "4": {
+        "title": "Mehr als $1000",
+        "answer": 0,
+        "key": "moreThanThousand"
+      }
+    },
+    "answers": {
+      "0": {
+        "image": "/advisor-wow.png",
+        "title": "Wow!",
+        "description": "Wir empfehlen dringend, nicht das gesamte Budget für KI-Vorhersagen zu verwenden.",
+        "type": "info"
+      }
+    }
+  },
+  {
+    "name": "monthlyReturn",
+    "title": "Was ist Ihre monatliche Rendite?",
+    "type": "radio",
+    "options": {
+      "0": {
+        "title": "Negative Renditen",
+        "answer": 0,
+        "key": "negativeReturns"
+      },
+      "1": {
+        "title": "Bis zu 10%",
+        "answer": 0,
+        "key": "upToTenPercent"
+      },
+      "2": {
+        "title": "Bis zu 30%",
+        "answer": 0,
+        "key": "upToThirtyPercent"
+      },
+      "3": {
+        "title": "Bis zu 50%",
+        "answer": 0,
+        "key": "upToFiftyPercent"
+      },
+      "4": {
+        "title": "Bis zu 100%",
+        "answer": 0,
+        "key": "upToOneHundredPercent"
+      }
+    },
+    "answers": {
+      "0": {
+        "image": "/advisor-chart2.png",
+        "title": "Sie können mehr!",
+        "description": "Mit Ihrer eigenen Strategie und unseren KI-Fußballvorhersagen können Sie mehr erreichen!",
+        "type": "info"
+      }
+    }
+  },
+  {
+    "name": "whatOdds",
+    "title": "Welche Quoten verwenden Sie?",
+    "type": "checkbox",
+    "options": {
+      "0": {
+        "title": "1.00 - 1.10",
+        "answer": 0,
+        "key": "1.00-1.10"
+      },
+      "1": {
+        "title": "1.10 - 1.20",
+        "answer": 0,
+        "key": "1.10-1.20"
+      },
+      "2": {
+        "title": "1.20 - 1.30",
+        "answer": 0,
+        "key": "1.20-1.30"
+      },
+      "3": {
+        "title": "1.30 - 1.40",
+        "answer": 0,
+        "key": "1.30-1.40"
+      },
+      "4": {
+        "title": "1.40 - 1.50",
+        "answer": 0,
+        "key": "1.40-1.50"
+      },
+      "5": {
+        "title": "1.50 - 1.60",
+        "answer": 0,
+        "key": "1.50-1.60"
+      },
+      "6": {
+        "title": "1.60 - 1.70",
+        "answer": 0,
+        "key": "1.60-1.70"
+      },
+      "7": {
+        "title": "1.70 - 1.80",
+        "answer": 0,
+        "key": "1.70-1.80"
+      },
+      "8": {
+        "title": "1.80 - 1.90",
+        "answer": 0,
+        "key": "1.80-1.90"
+      },
+      "9": {
+        "title": "Mehr als 1.90",
+        "answer": 0,
+        "key": "moreThan1.90"
+      }
+    },
+    "answers": {
+      "0": {
+        "image": "/advisor-checkmark.png",
+        "title": "Und das ist gut!",
+        "description": "Wir empfehlen, mit Quoten im Bereich von 1,2 bis 1,7 zu beginnen. Sie können nach „Nur mit Quoten“ filtern, um diese Empfehlungen zu finden. Quoten unter 1,2 haben die gleiche Wahrscheinlichkeit, aber niedrigere Renditen. Quoten über 1,7 können ein erhöhtes Risiko bergen, wenn Sie die KI-Vorhersage näher am Start des Spiels verwenden. KI bewertet die Wahrscheinlichkeiten einen Tag vor Beginn des Spiels, und unsere Vorhersagen ändern sich weder vor, während noch nach dem Spiel (Sie können die Effektivität aus vergangenen Spielen bewerten). Die Umstände können sich innerhalb eines Tages erheblich ändern, was sich auf die Spielausgänge auswirken kann.",
+        "type": "info"
+      }
+    }
+  },
+  {
+    "name": "specificLeaguesTeams",
+    "title": "Möchten Sie Vorhersagen für bestimmte Ligen und Teams verwenden oder ist das unwichtig?",
+    "type": "radio",
+    "options": {
+      "0": {
+        "title": "Nur bestimmte",
+        "answer": 0,
+        "key": "onlySpecificOnes"
+      },
+      "1": {
+        "title": "Es ist egal",
+        "answer": 0,
+        "key": "itDoesntMatter"
+      }
+    },
+    "answers": {
+      "0": {
+        "image": "/advisor-binoculars.png",
+        "title": "Check!",
+        "description": "Bevor Sie Vorhersagen für eine bestimmte Liga oder ein bestimmtes Team verwenden, stellen Sie sicher, dass die KI mit ihnen gut abschneidet. Dies kann einfach überprüft werden, indem Sie die Seite der Liga oder des Teams besuchen und abgeschlossene Spiele überprüfen.",
+        "type": "info"
+      }
+    }
+  },
+  {
+    "name": "strategy",
+    "title": "Haben Sie Ihre eigene Strategie?",
+    "type": "radio",
+    "options": {
+      "0": {
+        "title": "Nein, ich verlasse mich auf Glück",
+        "answer": 0,
+        "key": "noLuck"
+      },
+      "1": {
+        "title": "Ja, ich halte mich daran",
+        "answer": 0,
+        "key": "yesStickToIt"
+      }
+    },
+    "answers": {
+      "0": {
+        "image": "/advisor-board.png",
+        "title": "Eine Strategie ist notwendig!",
+        "description": "Wir empfehlen dringend, Ihre eigene Strategie zu entwickeln. Unsere App bietet umfangreiche zusätzliche Statistiken wie Erfolgsquote, H2H, Tabelle, Aufstellungen. Wenn Sie heute starten möchten, konzentrieren Sie sich auf KI-Spielgewinner-Vorhersagen mit Quoten im Bereich von 1,2 bis 1,7. Um Ihre Chancen zu erhöhen, erwägen Sie die Arbeit mit 7-10 solchen Vorhersagen. Dies ist der einfachste Weg, um anzufangen.",
+        "postTitle": "Viel Glück!",
+        "type": "info"
+      }
+    }
+  }
+]

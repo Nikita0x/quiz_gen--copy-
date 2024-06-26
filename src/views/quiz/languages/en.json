@@ -1,0 +1,333 @@
+[
+  {
+    "name": "level",
+    "title": "What is your experience level?",
+    "type": "radio",
+    "options": {
+      "0": {
+        "title": "no experience",
+        "answer": 0,
+        "key": "noExperience"
+      },
+      "1": {
+        "title": "up to 1 year",
+        "answer": 0,
+        "key": "upToOneYear"
+      },
+      "2": {
+        "title": "up to 2 years",
+        "answer": 1,
+        "key": "upToTwoYears"
+      },
+      "3": {
+        "title": "up to 5 years",
+        "answer": 1,
+        "key": "upToFiveYears"
+      },
+      "4": {
+        "title": "up to 10 years",
+        "answer": 2,
+        "key": "upToTenYears"
+      },
+      "5": {
+        "title": "more than 10 years",
+        "answer": 2,
+        "key": "moreThanTenYears"
+      }
+    },
+    "answers": {
+      "0": {
+        "image": "/advisor-experience.png",
+        "title": "Great!",
+        "description": "We provide step-by-step guides on the basics of football analysis, understanding game strategies, and managing your engagement. Our AI-driven insights will help you start cautiously and learn as you go.",
+        "type": "info"
+      },
+      "1": {
+        "image": "/advisor-experience.png",
+        "title": "Great!",
+        "description": "You're familiar with the essentials. Now, let's improve your knowledge with advanced techniques, insights into choosing the right matches to focus on, and optimizing your understanding using personalized AI predictions.",
+        "type": "info"
+      },
+      "2": {
+        "image": "/advisor-experience.png",
+        "title": "Great!",
+        "description": "As a seasoned fan, you'll benefit from deep analytics, trends, and patterns that our tool analyzes in real-time. Enhance your football acumen with our advanced analysis frameworks and high-value insights.",
+        "type": "info"
+      }
+    }
+  },
+  {
+    "name": "howMany",
+    "title": "How many matches do you process per day?",
+    "type": "radio",
+    "options": {
+      "0": {
+        "title": "1-5",
+        "answer": 0,
+        "key": "1-5"
+      },
+      "1": {
+        "title": "5-10",
+        "answer": 0,
+        "key": "5-10"
+      },
+      "2": {
+        "title": "10-100",
+        "answer": 0,
+        "key": "10-100"
+      },
+      "3": {
+        "title": "I don't process",
+        "answer": 0,
+        "key": "noProcessing"
+      }
+    },
+    "answers": {
+      "0": {
+        "image": "/advisor-like.png",
+        "title": "Ok!",
+        "description": "We strongly recommend using at least 7 AI forecasts per day. Using less than 5 projections can significantly increase the risks.",
+        "type": "info"
+      }
+    }
+  },
+  {
+    "name": "whatTypes",
+    "title": "What types of predictions are you interested in?",
+    "type": "checkbox",
+    "options": {
+      "0": {
+        "title": "Match Winner",
+        "answer": 0,
+        "key": "matchWinner"
+      },
+      "1": {
+        "title": "Double Chance",
+        "answer": 0,
+        "key": "doubleChance"
+      },
+      "2": {
+        "title": "Both Teams Score",
+        "answer": 0,
+        "key": "bothTeamsScore"
+      },
+      "3": {
+        "title": "Goals Over/Under",
+        "answer": 0,
+        "key": "goalsOverUnder"
+      },
+      "4": {
+        "title": "Other",
+        "answer": 0,
+        "key": "other"
+      }
+    },
+    "answers": {
+      "0": {
+        "image": "/advisor-chart.png",
+        "title": "Excellent!",
+        "description": "Here are the statistics for the last month by type",
+        "type": "statistics",
+        "preload": {
+          "title": "Loading statistic..."
+        }
+      }
+    }
+  },
+  {
+    "name": "budget",
+    "title": "What is your daily budget?",
+    "type": "radio",
+    "options": {
+      "0": {
+        "title": "Up to $50",
+        "answer": 0,
+        "key": "upToFifty"
+      },
+      "1": {
+        "title": "Up to $100",
+        "answer": 0,
+        "key": "upToHundred"
+      },
+      "2": {
+        "title": "Up to $500",
+        "answer": 0,
+        "key": "upToFiveHundred"
+      },
+      "3": {
+        "title": "Up to $1000",
+        "answer": 0,
+        "key": "upToOneThousand"
+      },
+      "4": {
+        "title": "More than $1000",
+        "answer": 0,
+        "key": "moreThanThousand"
+      }
+    },
+    "answers": {
+      "0": {
+        "image": "/advisor-wow.png",
+        "title": "Wow!",
+        "description": "We strongly recommend not using the entire budget using AI predictions.",
+        "type": "info"
+      }
+    }
+  },
+  {
+    "name": "monthlyReturn",
+    "title": "What is your monthly return?",
+    "type": "radio",
+    "options": {
+      "0": {
+        "title": "Negative returns",
+        "answer": 0,
+        "key": "negativeReturns"
+      },
+      "1": {
+        "title": "Up to 10%",
+        "answer": 0,
+        "key": "upToTenPercent"
+      },
+      "2": {
+        "title": "Up to 30%",
+        "answer": 0,
+        "key": "upToThirtyPercent"
+      },
+      "3": {
+        "title": "Up to 50%",
+        "answer": 0,
+        "key": "upToFiftyPercent"
+      },
+      "4": {
+        "title": "Up to 100%",
+        "answer": 0,
+        "key": "upToOneHundredPercent"
+      }
+    },
+    "answers": {
+      "0": {
+        "image": "/advisor-chart2.png",
+        "title": "You can more!",
+        "description": "Using your own strategy and our AI football predictions, you can do more!",
+        "type": "info"
+      }
+    }
+  },
+  {
+    "name": "whatOdds",
+    "title": "What odds do you use?",
+    "type": "checkbox",
+    "options": {
+      "0": {
+        "title": "1.00 - 1.10",
+        "answer": 0,
+        "key": "1.00-1.10"
+      },
+      "1": {
+        "title": "1.10 - 1.20",
+        "answer": 0,
+        "key": "1.10-1.20"
+      },
+      "2": {
+        "title": "1.20 - 1.30",
+        "answer": 0,
+        "key": "1.20-1.30"
+      },
+      "3": {
+        "title": "1.30 - 1.40",
+        "answer": 0,
+        "key": "1.30-1.40"
+      },
+      "4": {
+        "title": "1.40 - 1.50",
+        "answer": 0,
+        "key": "1.40-1.50"
+      },
+      "5": {
+        "title": "1.50 - 1.60",
+        "answer": 0,
+        "key": "1.50-1.60"
+      },
+      "6": {
+        "title": "1.60 - 1.70",
+        "answer": 0,
+        "key": "1.60-1.70"
+      },
+      "7": {
+        "title": "1.70 - 1.80",
+        "answer": 0,
+        "key": "1.70-1.80"
+      },
+      "8": {
+        "title": "1.80 - 1.90",
+        "answer": 0,
+        "key": "1.80-1.90"
+      },
+      "9": {
+        "title": "More than 1.90",
+        "answer": 0,
+        "key": "moreThan1.90"
+      }
+    },
+    "answers": {
+      "0": {
+        "image": "/advisor-checkmark.png",
+        "title": "And this is good!",
+        "description": "We recommend starting with odds in the range of 1.2 - 1.7. You can filter for \"Only with odds\" to find these recommendations. Odds below 1.2 have the same probability but lower returns. Odds above 1.7 may carry increased risk if you use ai prediction closer to the start of the match. AI assesses probabilities a day before the match starts and our predictions do not change before, during, or after the match (you can evaluate effectiveness from past matches). Circumstances can change significantly within a day that may affect match outcomes.",
+        "type": "info"
+      }
+    }
+  },
+  {
+    "name": "specificLeaguesTeams",
+    "title": "Do you want to use predictions for specific leagues and teams, or does it not matter?",
+    "type": "radio",
+    "options": {
+      "0": {
+        "title": "Only specific ones",
+        "answer": 0,
+        "key": "onlySpecificOnes"
+      },
+      "1": {
+        "title": "It doesn’t matter",
+        "answer": 0,
+        "key": "itDoesntMatter"
+      }
+    },
+    "answers": {
+      "0": {
+        "image": "/advisor-binoculars.png",
+        "title": "Check!",
+        "description": "Before using predictions for a specific league or team, make sure that AI performs well with them. This can be easily checked by visiting the league or team page and reviewing completed matches.",
+        "type": "info"
+      }
+    }
+  },
+  {
+    "name": "strategy",
+    "title": "Do you have your own strategy?",
+    "type": "radio",
+    "options": {
+      "0": {
+        "title": "No, I rely on luck",
+        "answer": 0,
+        "key": "noLuck"
+      },
+      "1": {
+        "title": "Yes, I stick to it",
+        "answer": 0,
+        "key": "yesStickToIt"
+      }
+    },
+    "answers": {
+      "0": {
+        "image": "/advisor-board.png",
+        "title": "Strategy is needed!",
+        "description": "We strongly recommend developing your own strategy. Our app provides extensive additional statistics, such as Success Rate, H2H, Table, Line-Ups. If you want to get started today, focus on AI Match Winner predictions with odds in the 1.2 - 1.7 range. To increase your chances, consider working with 7-10 such predictions. This is the simplest way to begin.",
+        "postTitle": "Good luck!",
+        "type": "info"
+      }
+    }
+  }
+]

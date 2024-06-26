@@ -1,0 +1,15 @@
+/* For information on how to create your own theme, please see:
+http://ionicframework.com/docs/theming/ */
+:root {
+	--primaryColor: #2ce080;
+	--textColor: #03314b;
+}
+
+:root.md {
+	--ion-background-color: white;
+}
+
+* {
+	font-family: "Cera PRO", sans-serif;
+	color: var(--textColor);
+}

@@ -1,0 +1,333 @@
+[
+  {
+    "name": "level",
+    "title": "Jaki jest twój poziom doświadczenia?",
+    "type": "radio",
+    "options": {
+      "0": {
+        "title": "Brak doświadczenia",
+        "answer": 0,
+        "key": "noExperience"
+      },
+      "1": {
+        "title": "Do 1 roku",
+        "answer": 0,
+        "key": "upToOneYear"
+      },
+      "2": {
+        "title": "Do 2 lat",
+        "answer": 1,
+        "key": "upToTwoYears"
+      },
+      "3": {
+        "title": "Do 5 lat",
+        "answer": 1,
+        "key": "upToFiveYears"
+      },
+      "4": {
+        "title": "Do 10 lat",
+        "answer": 2,
+        "key": "upToTenYears"
+      },
+      "5": {
+        "title": "Ponad 10 lat",
+        "answer": 2,
+        "key": "moreThanTenYears"
+      }
+    },
+    "answers": {
+      "0": {
+        "image": "/advisor-experience.png",
+        "title": "Świetnie!",
+        "description": "Oferujemy przewodniki krok po kroku dotyczące podstaw analizy piłkarskiej, zrozumienia strategii gry oraz zarządzania zaangażowaniem. Nasze wskazówki oparte na sztucznej inteligencji pomogą Ci zacząć ostrożnie i uczyć się w trakcie działania.",
+        "type": "info"
+      },
+      "1": {
+        "image": "/advisor-experience.png",
+        "title": "Świetnie!",
+        "description": "Znasz podstawy. Teraz poprawmy Twoją wiedzę za pomocą zaawansowanych technik, wskazówek dotyczących wyboru meczów do skoncentrowania się oraz optymalizacji zrozumienia za pomocą spersonalizowanych prognoz opartych na sztucznej inteligencji.",
+        "type": "info"
+      },
+      "2": {
+        "image": "/advisor-experience.png",
+        "title": "Świetnie!",
+        "description": "Jako doświadczony fan, skorzystasz z głębokiej analizy, trendów i wzorców, które nasze narzędzie analizuje w czasie rzeczywistym. Wzbogać swoją wiedzę o piłce nożnej za pomocą naszych zaawansowanych ram analizy i wartościowych wskazówek.",
+        "type": "info"
+      }
+    }
+  },
+  {
+    "name": "howMany",
+    "title": "Ile meczów analizujesz dziennie?",
+    "type": "radio",
+    "options": {
+      "0": {
+        "title": "1-5",
+        "answer": 0,
+        "key": "1-5"
+      },
+      "1": {
+        "title": "5-10",
+        "answer": 0,
+        "key": "5-10"
+      },
+      "2": {
+        "title": "10-100",
+        "answer": 0,
+        "key": "10-100"
+      },
+      "3": {
+        "title": "Nie analizuję",
+        "answer": 0,
+        "key": "noProcessing"
+      }
+    },
+    "answers": {
+      "0": {
+        "image": "/advisor-like.png",
+        "title": "Ok!",
+        "description": "Zdecydowanie zalecamy korzystanie z co najmniej 7 prognoz AI dziennie. Korzystanie z mniej niż 5 projekcji może znacznie zwiększyć ryzyko.",
+        "type": "info"
+      }
+    }
+  },
+  {
+    "name": "whatTypes",
+    "title": "Na jakie rodzaje prognoz jesteś zainteresowany?",
+    "type": "checkbox",
+    "options": {
+      "0": {
+        "title": "Zwycięzca meczu",
+        "answer": 0,
+        "key": "matchWinner"
+      },
+      "1": {
+        "title": "Podwójna szansa",
+        "answer": 0,
+        "key": "doubleChance"
+      },
+      "2": {
+        "title": "Obie drużyny zdobywają bramki",
+        "answer": 0,
+        "key": "bothTeamsScore"
+      },
+      "3": {
+        "title": "Liczba goli ponad/pod",
+        "answer": 0,
+        "key": "goalsOverUnder"
+      },
+      "4": {
+        "title": "Inne",
+        "answer": 0,
+        "key": "other"
+      }
+    },
+    "answers": {
+      "0": {
+        "image": "/advisor-chart.png",
+        "title": "Doskonałe!",
+        "description": "Oto statystyki z ostatniego miesiąca według typu",
+        "type": "statistics",
+        "preload": {
+          "title": "Ładowanie statystyk..."
+        }
+      }
+    }
+  },
+  {
+    "name": "budget",
+    "title": "Jaki jest twój dzienny budżet?",
+    "type": "radio",
+    "options": {
+      "0": {
+        "title": "Do $50",
+        "answer": 0,
+        "key": "upToFifty"
+      },
+      "1": {
+        "title": "Do $100",
+        "answer": 0,
+        "key": "upToHundred"
+      },
+      "2": {
+        "title": "Do $500",
+        "answer": 0,
+        "key": "upToFiveHundred"
+      },
+      "3": {
+        "title": "Do $1000",
+        "answer": 0,
+        "key": "upToOneThousand"
+      },
+      "4": {
+        "title": "Więcej niż $1000",
+        "answer": 0,
+        "key": "moreThanThousand"
+      }
+    },
+    "answers": {
+      "0": {
+        "image": "/advisor-wow.png",
+        "title": "Wow!",
+        "description": "Zdecydowanie zalecamy nie korzystanie z całego budżetu przy użyciu prognoz AI.",
+        "type": "info"
+      }
+    }
+  },
+  {
+    "name": "monthlyReturn",
+    "title": "Jaki jest Twój miesięczny zwrot?",
+    "type": "radio",
+    "options": {
+      "0": {
+        "title": "Ujemne zwroty",
+        "answer": 0,
+        "key": "negativeReturns"
+      },
+      "1": {
+        "title": "Do 10%",
+        "answer": 0,
+        "key": "upToTenPercent"
+      },
+      "2": {
+        "title": "Do 30%",
+        "answer": 0,
+        "key": "upToThirtyPercent"
+      },
+      "3": {
+        "title": "Do 50%",
+        "answer": 0,
+        "key": "upToFiftyPercent"
+      },
+      "4": {
+        "title": "Do 100%",
+        "answer": 0,
+        "key": "upToOneHundredPercent"
+      }
+    },
+    "answers": {
+      "0": {
+        "image": "/advisor-chart2.png",
+        "title": "Możesz więcej!",
+        "description": "Korzystając ze swojej strategii i naszych prognoz piłkarskich AI, możesz zrobić więcej!",
+        "type": "info"
+      }
+    }
+  },
+  {
+    "name": "whatOdds",
+    "title": "Jakie kursy używasz?",
+    "type": "checkbox",
+    "options": {
+      "0": {
+        "title": "1,00 - 1,10",
+        "answer": 0,
+        "key": "1.00-1.10"
+      },
+      "1": {
+        "title": "1,10 - 1,20",
+        "answer": 0,
+        "key": "1.10-1.20"
+      },
+      "2": {
+        "title": "1,20 - 1,30",
+        "answer": 0,
+        "key": "1.20-1.30"
+      },
+      "3": {
+        "title": "1,30 - 1,40",
+        "answer": 0,
+        "key": "1.30-1.40"
+      },
+      "4": {
+        "title": "1,40 - 1,50",
+        "answer": 0,
+        "key": "1.40-1.50"
+      },
+      "5": {
+        "title": "1,50 - 1,60",
+        "answer": 0,
+        "key": "1.50-1.60"
+      },
+      "6": {
+        "title": "1,60 - 1,70",
+        "answer": 0,
+        "key": "1.60-1.70"
+      },
+      "7": {
+        "title": "1,70 - 1,80",
+        "answer": 0,
+        "key": "1.70-1.80"
+      },
+      "8": {
+        "title": "1,80 - 1,90",
+        "answer": 0,
+        "key": "1.80-1.90"
+      },
+      "9": {
+        "title": "Więcej niż 1,90",
+        "answer": 0,
+        "key": "moreThan1.90"
+      }
+    },
+    "answers": {
+      "0": {
+        "image": "/advisor-checkmark.png",
+        "title": "To też jest dobre!",
+        "description": "Zalecamy rozpoczęcie od kursów w zakresie od 1,2 do 1,7. Możesz filtrować według „Tylko z kursami”, aby znaleźć te rekomendacje. Kursy poniżej 1,2 mają taką samą prawdopodobieństwo, ale niższe zwroty. Kursy powyżej 1,7 mogą wiązać się z większym ryzykiem, jeśli używasz prognoz AI bliżej początku meczu. AI ocenia prawdopodobieństwa dzień przed rozpoczęciem meczu, a nasze prognozy nie zmieniają się przed, w trakcie ani po meczu (możesz ocenić skuteczność na podstawie przeszłych meczów). Okoliczności mogą znacznie się zmienić w ciągu jednego dnia i mogą wpłynąć na wyniki meczów.",
+        "type": "info"
+      }
+    }
+  },
+  {
+    "name": "specificLeaguesTeams",
+    "title": "Chcesz korzystać z prognoz dla konkretnych lig i drużyn, czy to nie ma znaczenia?",
+    "type": "radio",
+    "options": {
+      "0": {
+        "title": "Tylko konkretne",
+        "answer": 0,
+        "key": "onlySpecificOnes"
+      },
+      "1": {
+        "title": "To nie ma znaczenia",
+        "answer": 0,
+        "key": "itDoesntMatter"
+      }
+    },
+    "answers": {
+      "0": {
+        "image": "/advisor-binoculars.png",
+        "title": "Sprawdź!",
+        "description": "Zanim skorzystasz z prognoz dla określonej ligi lub drużyny, upewnij się, że AI dobrze sobie z nimi radzi. Można to łatwo sprawdzić, odwiedzając stronę ligi lub drużyny i sprawdzając ukończone mecze.",
+        "type": "info"
+      }
+    }
+  },
+  {
+    "name": "strategy",
+    "title": "Masz własną strategię?",
+    "type": "radio",
+    "options": {
+      "0": {
+        "title": "Nie, polegam na szczęściu",
+        "answer": 0,
+        "key": "noLuck"
+      },
+      "1": {
+        "title": "Tak, trzymam się jej",
+        "answer": 0,
+        "key": "yesStickToIt"
+      }
+    },
+    "answers": {
+      "0": {
+        "image": "/advisor-board.png",
+        "title": "Strategia jest potrzebna!",
+        "description": "Zdecydowanie zalecamy opracowanie własnej strategii. Nasza aplikacja dostarcza obszerne dodatkowe statystyki, takie jak Wskaźnik Sukcesu, H2H, Tabela, Składy. Jeśli chcesz zacząć już dzisiaj, skoncentruj się na prognozach AI na zwycięzcę meczu z kursami w przedziale od 1,2 do 1,7. Aby zwiększyć swoje szanse, rozważ pracę nad 7-10 takimi prognozami. To najprostszy sposób, aby zacząć.",
+        "postTitle": "Powodzenia!",
+        "type": "info"
+      }
+    }
+  }
+]

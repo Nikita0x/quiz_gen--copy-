@@ -1,0 +1,333 @@
+[
+  {
+    "name": "level",
+    "title": "Kakvo je vaše iskustvo?",
+    "type": "radio",
+    "options": {
+      "0": {
+        "title": "Nemam iskustva",
+        "answer": 0,
+        "key": "noExperience"
+      },
+      "1": {
+        "title": "Do 1 godine",
+        "answer": 0,
+        "key": "upToOneYear"
+      },
+      "2": {
+        "title": "Do 2 godine",
+        "answer": 1,
+        "key": "upToTwoYears"
+      },
+      "3": {
+        "title": "Do 5 godina",
+        "answer": 1,
+        "key": "upToFiveYears"
+      },
+      "4": {
+        "title": "Do 10 godina",
+        "answer": 2,
+        "key": "upToTenYears"
+      },
+      "5": {
+        "title": "Više od 10 godina",
+        "answer": 2,
+        "key": "moreThanTenYears"
+      }
+    },
+    "answers": {
+      "0": {
+        "image": "/advisor-experience.png",
+        "title": "Odlično!",
+        "description": "Pratimo korak po korak osnove analize nogometa, razumijevanje strategija igre i upravljanje vašim sudjelovanjem. Naše informacije temeljene na umjetnoj inteligenciji pomoći će vam da počnete oprezno i učite kako idete.",
+        "type": "info"
+      },
+      "1": {
+        "image": "/advisor-experience.png",
+        "title": "Odlično!",
+        "description": "Vi ste upoznati s osnovama. Sada, poboljšajmo vaše znanje s naprednim tehnikama, uvidima u odabir pravih utakmica na koje se trebate usredotočiti i optimizirajte svoje razumijevanje korištenjem personaliziranih AI predviđanja.",
+        "type": "info"
+      },
+      "2": {
+        "image": "/advisor-experience.png",
+        "title": "Odlično!",
+        "description": "Kao iskusni navijač, imat ćete koristi od dubinske analize, trendova i uzoraka koje naš alat analizira u stvarnom vremenu. Poboljšajte svoje nogometno znanje uz naše napredne analitičke okvire i visoko vrijedne uvide.",
+        "type": "info"
+      }
+    }
+  },
+  {
+    "name": "howMany",
+    "title": "Koliko utakmica analizirate dnevno?",
+    "type": "radio",
+    "options": {
+      "0": {
+        "title": "1-5",
+        "answer": 0,
+        "key": "1-5"
+      },
+      "1": {
+        "title": "5-10",
+        "answer": 0,
+        "key": "5-10"
+      },
+      "2": {
+        "title": "10-100",
+        "answer": 0,
+        "key": "10-100"
+      },
+      "3": {
+        "title": "Ne analiziram",
+        "answer": 0,
+        "key": "noProcessing"
+      }
+    },
+    "answers": {
+      "0": {
+        "image": "/advisor-like.png",
+        "title": "U redu!",
+        "description": "Toplo preporučujemo korištenje barem 7 AI prognoza dnevno. Korištenje manje od 5 projekcija može značajno povećati rizike.",
+        "type": "info"
+      }
+    }
+  },
+  {
+    "name": "whatTypes",
+    "title": "Za koje vrste predviđanja ste zainteresirani?",
+    "type": "checkbox",
+    "options": {
+      "0": {
+        "title": "Pobjednik utakmice",
+        "answer": 0,
+        "key": "matchWinner"
+      },
+      "1": {
+        "title": "Dvostruka šansa",
+        "answer": 0,
+        "key": "doubleChance"
+      },
+      "2": {
+        "title": "Obje momčadi postižu gol",
+        "answer": 0,
+        "key": "bothTeamsScore"
+      },
+      "3": {
+        "title": "Golovi Više/Manje",
+        "answer": 0,
+        "key": "goalsOverUnder"
+      },
+      "4": {
+        "title": "Ostalo",
+        "answer": 0,
+        "key": "other"
+      }
+    },
+    "answers": {
+      "0": {
+        "image": "/advisor-chart.png",
+        "title": "Izvrsno!",
+        "description": "Evo statistike zadnjeg mjeseca po vrsti",
+        "type": "statistics",
+        "preload": {
+          "title": "Učitavanje statistike..."
+        }
+      }
+    }
+  },
+  {
+    "name": "budget",
+    "title": "Koja vam je dnevna proračun?",
+    "type": "radio",
+    "options": {
+      "0": {
+        "title": "Do 50 $",
+        "answer": 0,
+        "key": "upToFifty"
+      },
+      "1": {
+        "title": "Do 100 $",
+        "answer": 0,
+        "key": "upToHundred"
+      },
+      "2": {
+        "title": "Do 500 $",
+        "answer": 0,
+        "key": "upToFiveHundred"
+      },
+      "3": {
+        "title": "Do 1000 $",
+        "answer": 0,
+        "key": "upToOneThousand"
+      },
+      "4": {
+        "title": "Više od 1000 $",
+        "answer": 0,
+        "key": "moreThanThousand"
+      }
+    },
+    "answers": {
+      "0": {
+        "image": "/advisor-wow.png",
+        "title": "Wow!",
+        "description": "Toplo preporučujemo da ne koristite cijeli proračun koristeći AI prognoze.",
+        "type": "info"
+      }
+    }
+  },
+  {
+    "name": "monthlyReturn",
+    "title": "Koja je vaša mjesečna zarada?",
+    "type": "radio",
+    "options": {
+      "0": {
+        "title": "Negativni povrat",
+        "answer": 0,
+        "key": "negativeReturn"
+      },
+      "1": {
+        "title": "Do 10%",
+        "answer": 0,
+        "key": "upToTenPercent"
+      },
+      "2": {
+        "title": "Do 30%",
+        "answer": 0,
+        "key": "upToThirtyPercent"
+      },
+      "3": {
+        "title": "Do 50%",
+        "answer": 0,
+        "key": "upToFiftyPercent"
+      },
+      "4": {
+        "title": "Do 100%",
+        "answer": 0,
+        "key": "upToOneHundredPercent"
+      }
+    },
+    "answers": {
+      "0": {
+        "image": "/advisor-chart2.png",
+        "title": "Možete više!",
+        "description": "Koristeći vlastitu strategiju i naše AI nogometne prognoze, možete više!",
+        "type": "info"
+      }
+    }
+  },
+  {
+    "name": "whatOdds",
+    "title": "Koje kvote koristite?",
+    "type": "checkbox",
+    "options": {
+      "0": {
+        "title": "1.00 - 1.10",
+        "answer": 0,
+        "key": "1.00-1.10"
+      },
+      "1": {
+        "title": "1.10 - 1.20",
+        "answer": 0,
+        "key": "1.10-1.20"
+      },
+      "2": {
+        "title": "1.20 - 1.30",
+        "answer": 0,
+        "key": "1.20-1.30"
+      },
+      "3": {
+        "title": "1.30 - 1.40",
+        "answer": 0,
+        "key": "1.30-1.40"
+      },
+      "4": {
+        "title": "1.40 - 1.50",
+        "answer": 0,
+        "key": "1.40-1.50"
+      },
+      "5": {
+        "title": "1.50 - 1.60",
+        "answer": 0,
+        "key": "1.50-1.60"
+      },
+      "6": {
+        "title": "1.60 - 1.70",
+        "answer": 0,
+        "key": "1.60-1.70"
+      },
+      "7": {
+        "title": "1.70 - 1.80",
+        "answer": 0,
+        "key": "1.70-1.80"
+      },
+      "8": {
+        "title": "1.80 - 1.90",
+        "answer": 0,
+        "key": "1.80-1.90"
+      },
+      "9": {
+        "title": "Više od 1.90",
+        "answer": 0,
+        "key": "moreThan1.90"
+      }
+    },
+    "answers": {
+      "0": {
+        "image": "/advisor-checkmark.png",
+        "title": "I ovo je dobro!",
+        "description": "Preporučujemo početak s kvotama u rasponu od 1,2 - 1,7. Možete filtrirati prema 'Samo s kvotama' kako biste pronašli ove preporuke. Kvote ispod 1,2 imaju istu vjerojatnost, ali manje povrate. Kvote iznad 1,7 mogu nositi povećani rizik ako koristite AI predviđanje bliže početku utakmice. AI procjenjuje vjerojatnosti dan prije početka utakmice, a naše predviđanje se ne mijenja prije, tijekom ili nakon utakmice (možete procijeniti učinkovitost iz prošlih utakmica). Okolnosti se mogu značajno promijeniti u jednom danu i mogu utjecati na ishode utakmica.",
+        "type": "info"
+      }
+    }
+  },
+  {
+    "name": "specificLeaguesTeams",
+    "title": "Želite li koristiti prognoze za određene lige i momčadi, ili vam nije važno?",
+    "type": "radio",
+    "options": {
+      "0": {
+        "title": "Samo određene",
+        "answer": 0,
+        "key": "onlySpecificOnes"
+      },
+      "1": {
+        "title": "Nije važno",
+        "answer": 0,
+        "key": "itDoesntMatter"
+      }
+    },
+    "answers": {
+      "0": {
+        "image": "/advisor-binoculars.png",
+        "title": "Provjerite!",
+        "description": "Prije korištenja prognoza za određenu ligu ili momčad, provjerite da li AI dobro radi s njima. To se može lako provjeriti posjetom stranice lige ili momčadi i pregledom završenih utakmica.",
+        "type": "info"
+      }
+    }
+  },
+  {
+    "name": "strategy",
+    "title": "Imate li vlastitu strategiju?",
+    "type": "radio",
+    "options": {
+      "0": {
+        "title": "Ne, oslanjam se na sreću",
+        "answer": 0,
+        "key": "noLuck"
+      },
+      "1": {
+        "title": "Da, pridržavam se nje",
+        "answer": 0,
+        "key": "yesStickToIt"
+      }
+    },
+    "answers": {
+      "0": {
+        "image": "/advisor-board.png",
+        "title": "Potrebna je strategija!",
+        "description": "Toplo preporučujemo razvoj vlastite strategije. Naša aplikacija pruža obilne dodatne statistike, poput stope uspješnosti, H2H, tablice, sastava momčadi. Ako želite započeti danas, fokusirajte se na AI predviđanja pobjednika utakmice s kvotama u rasponu od 1,2 - 1,7. Kako biste povećali svoje šanse, razmislite o radu s 7-10 takvih predviđanja. Ovo je najjednostavniji način za početak.",
+        "postTitle": "Sretno!",
+        "type": "info"
+      }
+    }
+  }
+]

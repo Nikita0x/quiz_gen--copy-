@@ -1,0 +1,333 @@
+[
+  {
+    "name": "level",
+    "title": "Deneyim seviyeniz nedir?",
+    "type": "radio",
+    "options": {
+      "0": {
+        "title": "Deneyim yok",
+        "answer": 0,
+        "key": "noExperience"
+      },
+      "1": {
+        "title": "1 yıla kadar",
+        "answer": 0,
+        "key": "upToOneYear"
+      },
+      "2": {
+        "title": "2 yıla kadar",
+        "answer": 1,
+        "key": "upToTwoYears"
+      },
+      "3": {
+        "title": "5 yıla kadar",
+        "answer": 1,
+        "key": "upToFiveYears"
+      },
+      "4": {
+        "title": "10 yıla kadar",
+        "answer": 2,
+        "key": "upToTenYears"
+      },
+      "5": {
+        "title": "10 yıldan fazla",
+        "answer": 2,
+        "key": "moreThanTenYears"
+      }
+    },
+    "answers": {
+      "0": {
+        "image": "/advisor-experience.png",
+        "title": "Harika!",
+        "description": "Futbol analizinin temelleri, oyun stratejilerinin anlaşılması ve katılımınızın yönetimi konularında adım adım kılavuzlar sunuyoruz. Yapay zeka destekli bilgilerimizle temkinli bir şekilde başlayabilir ve ilerledikçe öğrenebilirsiniz.",
+        "type": "info"
+      },
+      "1": {
+        "image": "/advisor-experience.png",
+        "title": "Harika!",
+        "description": "Temellerle tanıştınız. Şimdi, ileri tekniklerle bilginizi geliştirelim, doğru maçlara odaklanmak için kişiselleştirilmiş yapay zeka tahminlerini kullanarak anlayışınızı optimize edelim.",
+        "type": "info"
+      },
+      "2": {
+        "image": "/advisor-experience.png",
+        "title": "Harika!",
+        "description": "Deneyimli bir hayran olarak, aracımızın gerçek zamanlı olarak analiz ettiği derin analizlerden, eğilimlerden ve desenlerden faydalanacaksınız. Gelişmiş analiz çerçevelerimiz ve yüksek değerli bilgilerimizle futbol bilginizi artırın.",
+        "type": "info"
+      }
+    }
+  },
+  {
+    "name": "howMany",
+    "title": "Günde kaç maç analiz ediyorsunuz?",
+    "type": "radio",
+    "options": {
+      "0": {
+        "title": "1-5",
+        "answer": 0,
+        "key": "1-5"
+      },
+      "1": {
+        "title": "5-10",
+        "answer": 0,
+        "key": "5-10"
+      },
+      "2": {
+        "title": "10-100",
+        "answer": 0,
+        "key": "10-100"
+      },
+      "3": {
+        "title": "Analiz yapmıyorum",
+        "answer": 0,
+        "key": "noProcessing"
+      }
+    },
+    "answers": {
+      "0": {
+        "image": "/advisor-like.png",
+        "title": "Tamam!",
+        "description": "Günde en az 7 yapay zeka tahmini kullanmanızı şiddetle öneririz. 5'ten az tahmin kullanmak riskleri önemli ölçüde artırabilir.",
+        "type": "info"
+      }
+    }
+  },
+  {
+    "name": "whatTypes",
+    "title": "Hangi tahmin türleri ilginizi çekiyor?",
+    "type": "checkbox",
+    "options": {
+      "0": {
+        "title": "Maç Kazananı",
+        "answer": 0,
+        "key": "matchWinner"
+      },
+      "1": {
+        "title": "Çifte Şans",
+        "answer": 0,
+        "key": "doubleChance"
+      },
+      "2": {
+        "title": "Her İki Takım da Gol Atar",
+        "answer": 0,
+        "key": "bothTeamsScore"
+      },
+      "3": {
+        "title": "Goller Üst/Altı",
+        "answer": 0,
+        "key": "goalsOverUnder"
+      },
+      "4": {
+        "title": "Diğer",
+        "answer": 0,
+        "key": "other"
+      }
+    },
+    "answers": {
+      "0": {
+        "image": "/advisor-chart.png",
+        "title": "Harika!",
+        "description": "İşte son bir ayın istatistikleri türlerine göre",
+        "type": "statistics",
+        "preload": {
+          "title": "İstatistik yükleniyor..."
+        }
+      }
+    }
+  },
+  {
+    "name": "budget",
+    "title": "Günlük bütçeniz nedir?",
+    "type": "radio",
+    "options": {
+      "0": {
+        "title": "$50'ye kadar",
+        "answer": 0,
+        "key": "upToFifty"
+      },
+      "1": {
+        "title": "$100'e kadar",
+        "answer": 0,
+        "key": "upToHundred"
+      },
+      "2": {
+        "title": "$500'e kadar",
+        "answer": 0,
+        "key": "upToFiveHundred"
+      },
+      "3": {
+        "title": "$1000'e kadar",
+        "answer": 0,
+        "key": "upToOneThousand"
+      },
+      "4": {
+        "title": "$1000'den fazla",
+        "answer": 0,
+        "key": "moreThanThousand"
+      }
+    },
+    "answers": {
+      "0": {
+        "image": "/advisor-wow.png",
+        "title": "Vay canına!",
+        "description": "Tüm bütçeyi kullanarak yapay zeka tahminlerini kullanmamanızı şiddetle öneririz.",
+        "type": "info"
+      }
+    }
+  },
+  {
+    "name": "monthlyReturn",
+    "title": "Aylık getiriniz nedir?",
+    "type": "radio",
+    "options": {
+      "0": {
+        "title": "Negatif getiriler",
+        "answer": 0,
+        "key": "negativeReturns"
+      },
+      "1": {
+        "title": "%10'a kadar",
+        "answer": 0,
+        "key": "upToTenPercent"
+      },
+      "2": {
+        "title": "%30'a kadar",
+        "answer": 0,
+        "key": "upToThirtyPercent"
+      },
+      "3": {
+        "title": "%50'ye kadar",
+        "answer": 0,
+        "key": "upToFiftyPercent"
+      },
+      "4": {
+        "title": "%100'e kadar",
+        "answer": 0,
+        "key": "upToOneHundredPercent"
+      }
+    },
+    "answers": {
+      "0": {
+        "image": "/advisor-chart2.png",
+        "title": "Daha fazlasını yapabilirsiniz!",
+        "description": "Kendi stratejinizi kullanarak ve yapay zeka futbol tahminlerimizle daha fazlasını yapabilirsiniz!",
+        "type": "info"
+      }
+    }
+  },
+  {
+    "name": "whatOdds",
+    "title": "Hangi oranları kullanıyorsunuz?",
+    "type": "checkbox",
+    "options": {
+      "0": {
+        "title": "1,00 - 1,10",
+        "answer": 0,
+        "key": "1.00-1.10"
+      },
+      "1": {
+        "title": "1,10 - 1,20",
+        "answer": 0,
+        "key": "1.10-1.20"
+      },
+      "2": {
+        "title": "1,20 - 1,30",
+        "answer": 0,
+        "key": "1.20-1.30"
+      },
+      "3": {
+        "title": "1,30 - 1,40",
+        "answer": 0,
+        "key": "1.30-1.40"
+      },
+      "4": {
+        "title": "1,40 - 1,50",
+        "answer": 0,
+        "key": "1.40-1.50"
+      },
+      "5": {
+        "title": "1,50 - 1,60",
+        "answer": 0,
+        "key": "1.50-1.60"
+      },
+      "6": {
+        "title": "1,60 - 1,70",
+        "answer": 0,
+        "key": "1.60-1.70"
+      },
+      "7": {
+        "title": "1,70 - 1,80",
+        "answer": 0,
+        "key": "1.70-1.80"
+      },
+      "8": {
+        "title": "1,80 - 1,90",
+        "answer": 0,
+        "key": "1.80-1.90"
+      },
+      "9": {
+        "title": "1,90'dan fazla",
+        "answer": 0,
+        "key": "moreThan1.90"
+      }
+    },
+    "answers": {
+      "0": {
+        "image": "/advisor-checkmark.png",
+        "title": "Ve bu iyi!",
+        "description": "1,2 - 1,7 aralığındaki oranlarla başlamanızı öneririz. Bu önerileri bulmak için \"Sadece oranlarla\"yı filtrelemeyi düşünebilirsiniz. 1,2'nin altındaki oranlar aynı olasılığa sahiptir ancak daha düşük getirilere sahiptir. 1,7'nin üzerindeki oranlar, maça başlama tahmininizi kullanırsanız artan risk taşıyabilir. Yapay zeka, maçın başlamasından bir gün önce olasılıkları değerlendirir ve tahminlerimiz maç öncesi, sırasında veya sonrasında değişmez (geçmiş maçlardan etkililiği değerlendirebilirsiniz). Bir gün içinde koşullar önemli ölçüde değişebilir ve maç sonuçlarını etkileyebilir.",
+        "type": "info"
+      }
+    }
+  },
+  {
+    "name": "specificLeaguesTeams",
+    "title": "Belirli ligler ve takımlar için tahminleri kullanmak istiyor musunuz, yoksa önemli değil mi?",
+    "type": "radio",
+    "options": {
+      "0": {
+        "title": "Sadece belirli olanlar",
+        "answer": 0,
+        "key": "onlySpecificOnes"
+      },
+      "1": {
+        "title": "Önemli değil",
+        "answer": 0,
+        "key": "itDoesntMatter"
+      }
+    },
+    "answers": {
+      "0": {
+        "image": "/advisor-binoculars.png",
+        "title": "Kontrol edin!",
+        "description": "Belirli bir lig veya takım için tahminler kullanmadan önce, yapay zekanın onlarla iyi performans gösterdiğinden emin olun. Bunun kolayca kontrol edilebilir olduğunu, lig veya takım sayfasını ziyaret ederek ve tamamlanmış maçları inceleyerek görebilirsiniz.",
+        "type": "info"
+      }
+    }
+  },
+  {
+    "name": "strategy",
+    "title": "Kendi stratejiniz var mı?",
+    "type": "radio",
+    "options": {
+      "0": {
+        "title": "Hayır, şansa güveniyorum",
+        "answer": 0,
+        "key": "noLuck"
+      },
+      "1": {
+        "title": "Evet, ona bağlıyım",
+        "answer": 0,
+        "key": "yesStickToIt"
+      }
+    },
+    "answers": {
+      "0": {
+        "image": "/advisor-board.png",
+        "title": "Strateji gerekiyor!",
+        "description": "Kendi stratejinizi geliştirmenizi şiddetle tavsiye ederiz. Uygulamamız, Başarı Oranı, H2H, Tablo, Kadrolar gibi genişletilmiş ek istatistikler sağlar. Bugün başlamak istiyorsanız, 1,2 - 1,7 aralığındaki oranlara sahip yapay zeka Maç Kazanan tahminlerine odaklanın. Şansınızı artırmak için, 7-10 bu tür tahminlerle çalışmayı düşünün. Bu başlamanın en basit yoludur.",
+        "postTitle": "İyi şanslar!",
+        "type": "info"
+      }
+    }
+  }
+]
